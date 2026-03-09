@@ -5,7 +5,7 @@ const app = express();
 app.use(express.json());
 
 // Token de verificación del webhook
-const VERIFY_TOKEN = 'mi_token_secreto';
+const VERIFY_TOKEN = 'mi_token_secreto'; // El que tú elijas, debe coincidir con el que configures en tu webhook
 // Tu token de acceso de la API
 const ACCESS_TOKEN = 'EAANrodAkfE4BQ0qRTDWQQL7ah8iiGoohUJASzQH0gM0ZBYZAlHDTXlXtLmQRn8TVuPOiFay1o9hxy0ljnp7axyEnbz2eAMKWL1KlHZAre1xp8eKshxZC7YJ1mjHLDZBjOU6BJkyZBdDtVZCDmjyeNCOWWomzD84IaCIzflmWOwk4cCQE8QgHd3uiAk7D7A695Hd3KjYDhlR0q0X6DZAUfFI0k8F0GjPmbGNX8oGaAcfqZC8stYaRZCD7T6Go5MDXdoOLEspRWVIbhlRZCPk1V1vHYVMcLMDiF0ZBaaDnIkIaqwZDZD'; // El que ves en tu imagen
 // ID del número de teléfono
